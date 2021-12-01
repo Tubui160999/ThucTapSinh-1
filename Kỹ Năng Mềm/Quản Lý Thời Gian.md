@@ -11,13 +11,14 @@
     - Rèn luyện khả năng quyết định, giảm bớt áp lực 
         + Việc thiếu kĩ năng quản lý thời gian thường dẫn đến tình trạng làm việc với nhiều áp lực, 
           gián tiếp đưa ra những quyết định sai lầm khi không có đủ thời lượng suy xét. Ngược lại, nếu bạn kiểm soát thời gian tốt,
-          bạn không những tránh được áp lực “deadline” mà còn đưa ra những quyết định sáng suốt hơn trong công việc do có nhiều thời gian để suy nghĩ, đánh giá vấn đề.
-    Hạn chế thói quen xấu, tạo động lực hành động
-        + Những thói quen xấu như trì hoãn công việc, không biết nói không, tổ chức kém sẽ gây tác hại khôn lường cho cá nhân và tập thể nơi cá nhân ấy làm việc.
-         Quản lý thời gian sẽ giúp bạn loại bỏ những thói quen không tốt, đồng thời tạo động lực để bắt tay thực hiện 
-         những dự án lớn nhờ kế hoạch đã được vạch ra với mục tiêu rõ ràng và thời gian biểu chính xác.
-### III. Ma trân quản lý thời gian
-    Ma trận quản lý thời gian – Time management Matrix là một trong những phương pháp quản lý thời gian hiệu quả được những người thành công thường áp dụng.
+          bạn không những tránh được áp lực “deadline” mà còn đưa ra những quyết định sáng suốt hơn trong công việc do có nhiều thời 
+          gian để suy nghĩ, đánh giá vấn đề. Hạn chế thói quen xấu, tạo động lực hành động
+        + Những thói quen xấu như trì hoãn công việc, không biết nói không, tổ chức kém sẽ gây tác hại khôn lường cho cá nhân và 
+         tập thể nơi cá nhân ấy làm việc.Quản lý thời gian sẽ giúp bạn loại bỏ những thói quen không tốt,đồng thời tạo động lực để 
+         bắt tay thực hiện  những dự án lớn nhờ kế hoạch đã được vạch ra với mục tiêu rõ ràng và thời gian biểu chính xác.
+#### III. Ma trân quản lý thời gian
+    Ma trận quản lý thời gian – Time management Matrix là một trong những phương pháp quản lý thời gian hiệu quả được những 
+    người thành công thường áp dụng.
     1. Quan trọng và khẩn cấp 
     - Những công việc nằm trong ô này thường được gắn những thuật ngữ như là khủng hoảng (crises) hay vấn đề (problems). 
       Chính vì tính cấp bách của nó, yêu cầu đặt ra đối với những công việc này là phải giải quyết ngay. 
@@ -29,6 +30,6 @@
     - Đây là nhóm duy nhất trong 4 nhóm bạn có thể nhờ người khác làm. Chính vì thế, nó còn có tên là nhóm ủy quyền. 
       Mức thời gian cần thiết cho những công việc trong nhóm này: 5%.
     4. Không khẩn cấp cũng không quan trọng
-    - Những công việc trong nhóm này thường là những việc thiết yếu các bạn phải làm như : ăn, ngủ, sinh hoạt, và kể cả việc lướt web, chơi game, chat..
-    lượng thời gian các chuyên gia khuyên bạn dành cho nhóm này: 5% Càng tối thiểu hóa càng tốt. Nhóm này thường được gọi là SINH HOẠT.
+    - Những công việc trong nhóm này thường là những việc thiết yếu các bạn phải làm như : ăn, ngủ, sinh hoạt, và kể cả việc lướt web...
+     lượng thời gian các chuyên gia khuyên bạn dành cho nhóm này: 5% Càng tối thiểu hóa càng tốt. Nhóm này thường được gọi là SINH HOẠT.
 
