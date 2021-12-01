@@ -13,4 +13,4 @@ II. Tầm Quan Trọng Của Quản Lý Thời Gian Trong Công Việc
         + Những thói quen xấu như trì hoãn công việc, không biết nói không, tổ chức kém sẽ gây tác hại khôn lường cho cá nhân và tập thể nơi cá nhân ấy làm việc. Quản lý thời gian sẽ giúp bạn loại bỏ những thói quen không tốt, đồng thời tạo động lực để bắt tay thực hiện những dự án lớn nhờ kế hoạch đã được vạch ra với mục tiêu rõ ràng và thời gian biểu chính xác.
 III. Ma trân quản lý thời gian 
     Ma trận quản lý thời gian – Time management Matrix là một trong những phương pháp quản lý thời gian hiệu quả được những người thành công thường áp dụng.
-    <img src="t-i-li-u\img\KNM\tg.PNG">
+    <img src="KNM\tg.PNG">
