@@ -1,0 +1,13 @@
+1.1 Mạng truyền thông và công nghệ Mạng
+    1.1.1 Giới thiệu chung 
+    -  Truyền thông mạng máy tình là quá trình truyền dữ liệu từ thiết bị này sang thiết bị khác.
+    -  Khái niệm về mạng (Networking) chỉ khái niệm kết nối các thiết bị lại với nhau nhằm mục đích chia sẻ thông tin.
+        + Giao thức truyền thông.
+        + Topo mô hình ghép nối mạng/ hình trạng mạng.
+        + Địa chỉ mô ta cách thức định vị một đối tượng mạng.
+        + Định tuyến (routing) mô tả cách thức dữ liệu truyền từ thiết bị này sang thiết bị khác trên mạng.
+        + Tính tin cậy mô tả tính toàn vẹn dữ liệu, đảm bảo dữ liệu nhận được chính xác như dữ liệu gửi đi.
+        + Khả năng liên tác mô tả khả năng làm làm việc cả các phần mềm và phần cứng của các hãng khác nhau có thể làm việc với nhau.
+        + An ninh mạng bảo đảm an toàn và bảo vệ tất cả các thành phần của mạng.
+        + Chuẩn mô tả các quy tắc đã được thiết lập và tuân theo.
+        
