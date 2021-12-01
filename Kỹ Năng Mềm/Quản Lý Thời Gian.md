@@ -6,8 +6,8 @@
     – Tiến hành thực hiện, bám sát kế hoạch đặt ra.
 # II. Tầm Quan Trọng Của Quản Lý Thời Gian Trong Công Việc
     - Giúp tăng năng suất làm việc 
-        + Biết cách quản lý thời gian giúp bạn sắp xếp các kế hoạch và nhiệm vụ hàng ngày dựa vào mức độ quan trọng và theo thứ tự ưu tiên. 
-          Với danh sách này, bạn sẽ tập trung vào những nhiệm vụ quan trọng nên hoàn thành trước, từ đó tăng hiệu quả công việc.
+        + Biết cách quản lý thời gian giúp bạn sắp xếp các kế hoạch và nhiệm vụ hàng ngày dựa vào mức độ quan trọng và theo thứ tự ưu 
+        tiên.Với danh sách này, bạn sẽ tập trung vào những nhiệm vụ quan trọng nên hoàn thành trước, từ đó tăng hiệu quả công việc.
     - Rèn luyện khả năng quyết định, giảm bớt áp lực 
         + Việc thiếu kĩ năng quản lý thời gian thường dẫn đến tình trạng làm việc với nhiều áp lực, 
           gián tiếp đưa ra những quyết định sai lầm khi không có đủ thời lượng suy xét. Ngược lại, nếu bạn kiểm soát thời gian tốt,
