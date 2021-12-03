@@ -1,3 +1,3 @@
 
 hoàng văn khánh
-<img src="1.PND">
+<img src="T-I-LI-U/jmg/1.PND">
