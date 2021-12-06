@@ -10,3 +10,7 @@
 - Bước 2 : Cài đặt CentOs 7
    + Tạo file
     <img src = "../../jmg/b1.PNG">
+    
+    + Chọn Đĩa có file CentOs 7 
+    <img src = "../../jmg/b3.PNG">
+    
