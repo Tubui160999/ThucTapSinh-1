@@ -21,8 +21,7 @@
 
 - Bước 5 : Ngắn ID cho server vừa thực hiện  
     + Để phân biết các server với nhau
-<img src = "../../jmg/id.PNG">
+<img src = "../jmg/id.PNG">
 
 - Kết quả
     + Đã hoàn thành việc lắp đặt server cho khách hàng.
-<img src ="../../jmg/man1.PNG" >
