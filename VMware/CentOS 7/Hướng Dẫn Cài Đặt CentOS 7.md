@@ -9,13 +9,9 @@
     + Đã Cài đặt VMware Wokstation 20.04.3
 - Bước 2 : Cài đặt CentOs 7
    + Tạo file
-
-
-    - <img src = "../../jmg/b1.PNG">
+        - <img src = "../../jmg/b1.PNG">
     
 
     + Chọn Đĩa có file CentOs 7 
-
-
-    - <img src = "../../jmg/b3.PNG">
+        - <img src = "../../jmg/b3.PNG">
     
