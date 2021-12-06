@@ -6,7 +6,8 @@
 - Bước 1 : Lắp Thanh rack vào tủ.
     + Cứ 3U sẽ bỏ trống 1U để thông gió
 <img src = "../../jmg/t.PNG">
-
+ <img src ="../../jmg/t.PNG" >
+  
 - Bước 2 : Để server vào 
  <img src = "../../jmg/server.PNG">
 
