@@ -32,5 +32,3 @@
     4. Không khẩn cấp cũng không quan trọng
     - Những công việc trong nhóm này thường là những việc thiết yếu các bạn phải làm như :ăn, ngủ, sinh hoạt, và kể cả việc lướt web..
      lượng thời gian các chuyên gia khuyên bạn dành cho nhóm này: 5% Càng tối thiểu hóa càng tốt.Nhóm này thường được gọi là SINH HOẠT.
-
-<img src="../jmg/1.PNG">

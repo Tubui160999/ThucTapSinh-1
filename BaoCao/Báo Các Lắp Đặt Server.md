@@ -25,3 +25,4 @@
 
 - Kết quả
     + Đã hoàn thành việc lắp đặt server cho khách hàng.
+<img src ="../../jmg/man1.PNG" >
