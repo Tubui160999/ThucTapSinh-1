@@ -12,6 +12,7 @@
         - <img src = "../../jmg/b1.PNG">
     
 
-    + Chọn Đĩa có file CentOs 7 
+    + Chọn Đĩa CentOs 7 đã tải về từ trước đó.
         - <img src = "../../jmg/b3.PNG">
+ - Bước 3 
     
