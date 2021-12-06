@@ -1,6 +1,6 @@
 ## Báo Cáo Theo Dõi Và Quan Sát Lắp Đặt Server Cho Khác Hàng
 ### Thực Tập Sinh Hoàng Văn Khánh
-- Nội Dụng Báo Cáo
+- Nội Dụng :
     + Lắp Đặt 2 server cho khách hàng.
 - Các Bước Thực Hiện
 - Bước 1 : Lắp Thanh rack vào tủ.
