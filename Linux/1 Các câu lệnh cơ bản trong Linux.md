@@ -43,7 +43,7 @@
   + / : để tìm kiếm 
     - VD muốn tìm kiếm từ Hà Nội 
        + /Hà Nội : sẽ tìm đến từ trên xuống dưới dùng n để tìm kiếm từ đúng tiếp theo
-  + :%s : Tìm kiếm và thay thế
+  + :%s Tìm kiếm và thay thế
     - VD tìm kiếm tất cả từ 2 thay thế thành 3 
       + :%s/2/3/g với giá trị g là tất cả 
 ### 5. Đóng gói vè nén thư mục 
