@@ -13,8 +13,8 @@
 - ls : Liệt kê nội dung của thư mục đang đứng.
 - mv : để di chuyển từ thư mục này đến thu mục khác
 - du -sh : để kiểm tra dung lương của thư mục đang đứng
-- VD Di chuyển 1 file từ /root/bai1/a.text đến thứ mục /roo/bai2
-- mv /root/bai1/a.text /root/bai2/
+    + VD Di chuyển 1 file từ /root/bai1/a.text đến thứ mục /roo/bai2
+    + mv /root/bai1/a.text /root/bai2/
   + với tham số đầu là tham số di chuyển và tham số thư 2 là tham số đến.
 - rmdir : để xóa các thư mục và file rỗng
 - rm -rf để xóa thư mục và file không rỗng
@@ -41,7 +41,7 @@
   + shift + 6 : để về cuối dòng
   + u : để undo những gì vừa mới thực hiện
   + / : để tìm kiếm 
-    - VD muốn tìm kiếm từ Hà Nội 
+    + VD muốn tìm kiếm từ Hà Nội 
        + /Hà Nội : sẽ tìm đến từ trên xuống dưới dùng n để tìm kiếm từ đúng tiếp theo
   + :%s Tìm kiếm và thay thế
     - VD tìm kiếm tất cả từ 2 thay thế thành 3 
