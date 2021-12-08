@@ -41,25 +41,25 @@
   + shift + 6 : để về cuối dòng
   + u : để undo những gì vừa mới thực hiện
   + / : để tìm kiếm 
-    + VD muốn tìm kiếm từ Hà Nội 
+    + Ví Dụ : Muốn tìm kiếm từ Hà Nội 
        + /Hà Nội : sẽ tìm đến từ trên xuống dưới dùng n để tìm kiếm từ đúng tiếp theo
   + :%s Tìm kiếm và thay thế
-    - VD tìm kiếm tất cả từ 2 thay thế thành 3 
+    - Ví Dụ: Tìm kiếm tất cả từ 2 thay thế thành 3 
       + :%s/2/3/g với giá trị g là tất cả 
 ### 5. Đóng gói vè nén thư mục 
 - Sử dụng công cụ tar
 - tar -cvf : để đóng gói 1 thư mục
-  + VD đóng gói thư mục test
+  + Ví Dụ : đóng gói thư mục test
     - tar -cvf test.tar test
     - cf là đóng gói
     - v là hiện thị quá trình đóng gói 
     - test.tar là tên file sau khi đóng gói
     - test là file cần đóng gói
 - tar -czf : để nén thư mục
-  + VD nén thư mục bai1
+  + Ví Dụ: nén thư mục bai1
     - tar -czf bai1.tar.gz bai1
 - tar -cjf : để nén thư mục những kích thức file sẽ nhở hơn -z những quá trình nén sẽ mất thời gian nhiều hơn.
-  + VD nén thư mục bai2
+  + Ví Dụ: nén thư mục bai2
     - tar -cjf bai2.tar.bz2 bai2 
 - tar -xf : để mở đóng gói
 - tar -xzf : để mở giải nén
@@ -70,11 +70,11 @@
  - cat /etc/passwd : để xem các user đang có
  - cat /etc/group : để xem các group đang có
  - groupadd : để tạo 1 group mới
-  + Vd Tạo 1 group có tên là App  
+  + Ví Dụ Tạo 1 group có tên là App  
     - groupadd -g 10 App
     - với -g 10 là ID là của group vừa tạo mỗi group đều có 1 ID không giống nhau.
 - useradd : để tạo 1 user mới
-  + VD tạo 1 user có tên là vankhanh
+  + Ví Dụ tạo 1 user có tên là vankhanh
     - useradd -g App -G DB vankhanh
     - Với -g App là group chính của user vừa tạo
     - Với -G DB là group phụ 
