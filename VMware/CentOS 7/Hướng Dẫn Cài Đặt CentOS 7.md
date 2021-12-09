@@ -23,4 +23,6 @@
   <img src = "../../jmg/a4.PNG">
 - Bược 7 : Thêm tên và mật khẩu cho User 
  <img src = "../../jmg/a6.PNG">
-    
+
+- Bước 8 : Đăng Nhập và Sử Dụng
+ <img src = "../../jmg/a7.PNG">
