@@ -15,8 +15,8 @@
   <img src = "../../jmg/buoc2.PNG">
 - Bước 5 : Thay đổi dung lượng bộ nhớ 
   <img src = "../../jmg/buoc3.PNG">
-- Bược 6 : KIềm tra lại thông số và bắt đầu quá trình cài đặt
-  <img src = "../../jmg/buoc3.PNG">
+- Bược 6 : Kiểm tra lại thông số và bắt đầu quá trình cài đặt
+  <img src = "../../jmg/buoc4.PNG">
 
 
     
