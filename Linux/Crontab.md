@@ -12,6 +12,24 @@
 - crontabl -r : Xóa file crontab
 <img src ="../jmg/r1.PNG">
 
-#### Cách cài đặt crontab
-- sử dụng lệnh : yum install cronie
--
+#### 1 Số Bài Tập về Crontab
+1. Cứ 23h hàng ngày in ra 10 file chiếm nhiều dung lượng nhất
+- find -type f -exec du -Sh {} + | sort -rh | : Tìm kiếm 10 file chiếm nhiều dung lượng nhất
+- * 23 * * *  : cứ mỗi 23h hàng ngày sẽ chạy chạy
+-   * 23 * * * find -type f -exec du -Sh {} + | sort -rh | >> topfile.text : cứ mỗi 23h hàng ngày in ra 10 file chiếm nhiều dung lượng nhất vào file có tên là topfile.text
+<img src = "../jmg/t1.PNG">
+
+- Kết Quả
+<img src = "../jmg/t2.PNG">
+
+2. cứ 23h59p hàng ngày in ra 10 thư mục chiếm nhiều dung lượng nhất. 
+-  du -hs * | sort -rh | head -10 : Tìm kiếm 10 thư mục chiếm nhiều dung lượng nhất
+- 59 23 * * *  : cứ mỗi 23h59 hàng ngày sẽ chạy chạy
+-   59 23 * * * du -hs * | sort -rh | head -10 >> topThuMuc.text : cứ mỗi 23h59 hàng ngày in ra 10 thư mục chiếm nhiều dung lượng nhất vào file có tên là topThuMuc.text
+<img src = "../jmg/y1.PNG">
+
+- Kết Quả
+
+<img src = "../jmg/y2.PNG">
+
+
