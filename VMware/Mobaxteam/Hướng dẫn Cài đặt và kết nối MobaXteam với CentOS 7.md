@@ -15,8 +15,8 @@
     + <img src ="../../jmg/z4.PNG">
 
 ##### Bước 5 : Hoàn Thành quá trình cài đặt và sử dụng
-    + <img src ="../../jmg/z5.PNG">
-    + <img src ="../../jmg/z6.PNG">
+<img src ="../../jmg/z5.PNG">
+<img src ="../../jmg/z6.PNG">
 
 
 
