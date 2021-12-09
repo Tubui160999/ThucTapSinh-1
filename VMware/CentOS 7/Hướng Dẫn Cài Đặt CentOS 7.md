@@ -13,5 +13,14 @@
         
     + Chọn Đĩa CentOs 7 đã tải về từ trước đó.
         - <img src = "../../jmg/b3.PNG">
- - Bước 3 
+ - Bước 3 Nhập Tên và Mật khẩu đăng nhập Ubuntu
+  <img src = "../../jmg/a1.PNG">
+  - Bước 4 Thay đổi tên và chọn nơi lưu
+  <img src = "../../jmg/a2.PNG">
+- Bước 5 : Thay đổi dung lượng bộ nhớ 
+  <img src = "../../jmg/a3.PNG">
+- Bược 6 : Kiểm tra lại thông số và bắt đầu quá trình cài đặt
+  <img src = "../../jmg/a4.PNG">
+- Bược 7 : Thêm tên và mật khẩu cho User 
+ <img src = "../../jmg/a6.PNG">
     
