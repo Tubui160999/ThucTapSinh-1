@@ -17,6 +17,12 @@
   <img src = "../../jmg/buoc3.PNG">
 - Bược 6 : Kiểm tra lại thông số và bắt đầu quá trình cài đặt
   <img src = "../../jmg/buoc4.PNG">
+- Bược 7 : Chờ đợi quá trình cài đặt 
+ <img src = "../../jmg/buoc5.PNG">
+
+- Bước 8: Hoàn thành và đăng nhập vào Ubuntu
+<img src = "../../jmg/buoc6.PNG">
+<img src = "../../jmg/buoc7.PNG">
 
 
     
