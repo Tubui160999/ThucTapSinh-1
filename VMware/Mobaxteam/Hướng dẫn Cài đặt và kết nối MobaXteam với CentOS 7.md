@@ -31,5 +31,5 @@
 <img src ="../../jmg/x4.PNG">
 
 ##### Bước 5 : Hoàn Thành và sử dụng 
-
+<img src ="../../jmg/x5.PNG">
 
