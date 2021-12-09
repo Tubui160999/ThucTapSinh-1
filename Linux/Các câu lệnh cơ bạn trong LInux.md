@@ -84,187 +84,30 @@
 ![](../images/101/cp.png)
 
 33. Hoán đổi vị trí đứng với thư mục mẹ của nó. 
+- cd -
 
-`cd -`
-
-- *Ví dụ hoán đổi vị trí của thư mục `Test` với thư mục mẹ của nó là `OanhDT`*
-
-![](../images/101/cd-.png)
+- Ví Dụ: đang ở home và muốn đến thư mục baitap
+    + cd baitap
 
 34. Di chuyển ra thực mục mẹ của thư mục hiện tại.
 
-`cd ..`
+- cd .. 
 
 35. Di chuyển tới thư mục home 
 
-`cd ~`
-
-36. Di chuyển tới thư mục home 
-
-`cd $HOME`
-
-37. DI chuyển tới thư mục home 
-
-`cd `
-
-38. Cấp full quyền cho người sở hữu.QUyền đọc và ghi cho group và user
-
-```
-chmod 755 tên_file 
-```
-
-- Ví dụ phân quyền cho file linux 
-
-![](../images/101/chmod.png)
-
-Trong đó r viết tắt của read(đọc),w viết tắt của write (viết),và x viết tắt của execute (thực thi).
-
-- Options
-
-|Wildcards|Result|
-|---|---|
-|-f|chặn hầu hết các thông báo lỗi|
-|-c|chỉ báo cáo khi có thay đổi|
-|-v|đưa ra chuẩn đoán cho mọi tệp được xử lý|
-|-R|thay đổi tập tin và thư mục đệ quy|
-
-
-39. Cấp quyền thực thi cho user
-
-```
-chmod a+x file_name
-```
-
-40. Thay đổi quyền sở hữu của một file hoặc thư mục.
-
-```
-chown option user:group file/folder
-```
-
-- Ví dụ : thay đổi quyền sở hữu của thư mục DT sang user oanhdt.
-
-![](../images/101/chown.png)
-
+- cd ~
 41. Tạo ra bản sao của file 
-
-```
-cp (file(file)).backup
-```
-
-42. Copy file1 thành file2
-
-```
-cp (file1) (file2)
-```
-
-43. Copy thư mục và file trong đó thành thư mục khác
-
-```
-cp -r <directory1> <directory2>/
-```
-
-- Ví dụ copy thư mục `DT` và các file trong thư mục đó thành thư mục `NEW`
-
-![](../images/101/cp-r.png)
-
-- Options 
-
-|Wildcards|Result|
-|---|---|
-|-l|tập tin liên kết cứng thay vì sao chép|
-|-i|nhắc nhở trước khi ghi đè|
-|-L|luôn theo các liên kết tượng trưng trong nguồn|
-|-s|liên kết tượng trưng thay vì sao chép|
-|-u|chỉ sao chép khi tệp SOURCE mới hơn tệp đích hoặc khi tệp đích bị thiếu|
-
-44. Hiển thị ngày tháng của máy tính 
-`date`
-
-![](../images/101/date.png)
-
-45. Tạo file
-```
-dd if=/dev/sda1 of=/root/sda1.txt
-```
-- Ví dụ sao lưu ổ đĩa sang file .txt
-![](../images/101/dd.png)
-
-46. Hiển thị không gian đĩa 
-
-`df -h`
-
-![](../images/101/df.png)
-
-Trong đó: 
-- Filesystem: tên ổ đĩa 
-- Size: không gian tổng 
-- Used: Không gian đã sử dụng 
-- Avail: Không gian trống 
-- Use: Phần trăm đã sử dụng 
-- Mounted on: Được gắn trên đâu trong cây thư mục root 18. Lấy thông tin của HDH và ghi vào tệp văn bản
-
-- Option 
-
-|Wildcards|Result|
-|---|---|
-|-k | Hiển thị dung lượng cho file sử dụng|
-|-l |giới hạn danh sách cho các hệ thống tập tin cục bộ|
-|-i |liệt kê thông tin inode thay vì sử dụng khối|
-|-t |giới hạn danh sách cho các hệ thống tệp loại TYPE|
+- cp 
+- Ví Dụ : copy 1 file từ file baitap
+    + cp baitapcopy baitap
+42. df -h :    Hiển thị không gian đĩa 
 
 
-47. Lấy thông tin của hệ điều hành và ghi vào tệp văn bản.
 
-```
-dmesg>dmesg.txt
-```
 
-- Options
+43.  dmidecode -t 4 : Hiển thị thông tin CPU
 
-    |Wildcards |Result | 
-    |----------|-------|
-    | -c | xóa bộ đệm vòng sau khi in|  
-    | -D |Vô hiệu hóa in tin nhắn đến bàn điều khiển| 
-    | -d| hiển thị thời gian delta giữa các tin nhắn được in| 
-    |-e |hiển thị giờ địa phương và đồng bằng thời gian ở định dạng có thể đọc được|
-    |-f |giới hạn đầu ra cho các cơ sở được xác định|
-    |-L|Tô màu tin nhắn|
-    | -l|giới hạn đầu ra ở các mức xác định|
-    |-t|không bao giờ in dấu thời gian tin nhắn|
-    | -u| không gian hiển thị thông báo không gian người dùng|
-    |-w| Theo dõi chờ tin nhắn mới |
-
-48. Hiển thị thông tin hệ thống 
-
-`dmidecode`
-
-- Options 
-
-|Wildcards|Result|
-|---|---|
-|-d|Đọc bộ nhớ từ file thiết bị|
-|-V|Hiển thị phiên bản và thoát|
-|-h|Hiển thị thông tin sử dụng và thoát|
-|-s|Chỉ hiển thị giá trị của chuỗi DMI được xác định bởi KEYWORD|
-|-t|Chỉ hiển thị các mục của loại TYPE từ danh sách sau: bios, hệ thống, ván chân tường, khung, bộ xử lý,bộ nhớ, bộ nhớ cache, kết nối, khe cắm|
-
-49. Hiển thị thông tin BIOS
-```
-dmidecode -t 0
-```
-
-![](../images/101/bios.png)
-
-50. Hiển thị thông tin CPU 
-
-```
-dmidecode -t 4
-```
-
-51. Kiểm tra các phần mềm đã cài đặt có tham số grep đi kèm 
-``` 
-dpkg –list | grep [search term]
-```
+44. dpkg –list | grep [search term] : Kiểm tra các phần mềm đã cài đặt có tham số grep đi kèm  
 
 52. Hiển thị tất cả các gói đã cài đặt 
 ```
