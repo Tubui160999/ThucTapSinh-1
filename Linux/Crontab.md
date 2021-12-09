@@ -3,11 +3,11 @@
 - Cron là một cách để tạo và chạy các lệnh theo một chu kỳ xác định. Đây là tiện ích giúp lập lịch trình để chạy những dòng lệnh bên phía server nhằm thực thi một hoặc nhiều công việc nào đó theo thời gian được lập sẵn.
 <img src="../jmg/cron.PNG">
 
-- * đầu tiên từ bên trai sang đại diện cho phút từ 0 đến 59
-- * thứ 2 đại diện cho số giờ từ 0 đến 23
-- * thứ 3 đại diện cho số ngày từ 1 đến 31
-- * thứ 4 đại diện cho số tháng từ 1 đến 12
-- * thứ 5 đại diện cho số tuần từ 0 đến 7  
+- '*' đầu tiên từ bên trai sang đại diện cho phút từ 0 đến 59
+- '*' thứ 2 đại diện cho số giờ từ 0 đến 23
+- '*' thứ 3 đại diện cho số ngày từ 1 đến 31
+- '*' thứ 4 đại diện cho số tháng từ 1 đến 12
+- '*' thứ 5 đại diện cho số tuần từ 0 đến 7  
 #### Một số lệnh crontab thường dùng :
 - crontab -e : Tạo hoặc chỉnh sửa file crontab
 <img src ="../jmg/e.PNG">
@@ -20,8 +20,8 @@
 ### 1 Số Bài Tập về Crontab
 1. Cứ 23h hàng ngày in ra 10 file chiếm nhiều dung lượng nhất
 - find -type f -exec du -Sh {} + | sort -rh | : Tìm kiếm 10 file chiếm nhiều dung lượng nhất
-- * 23 * * *  : cứ mỗi 23h hàng ngày sẽ chạy chạy
--   * 23 * * * find -type f -exec du -Sh {} + | sort -rh | >> topfile.text : cứ mỗi 23h hàng ngày in ra 10 file chiếm nhiều dung lượng nhất vào file có tên là topfile.text
+- " * 23 * * *  : cứ mỗi 23h hàng ngày sẽ chạy chạy
+- "  * 23 * * * find -type f -exec du -Sh {} + | sort -rh | >> topfile.text : cứ mỗi 23h hàng ngày in ra 10 file chiếm nhiều dung lượng nhất vào file có tên là topfile.text
 <img src = "../jmg/t1.PNG">
 
 - Kết Quả
