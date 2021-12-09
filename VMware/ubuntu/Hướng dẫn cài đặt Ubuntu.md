@@ -8,7 +8,7 @@
         - <img src = "../../jmg/b1.PNG">
         
     + Chọn Đĩa CentOs 7 đã tải về từ trước đó.
-        - <img src = "../../jmg/b3.PNG">
+        - <img src = "../../jmg/1.1.PNG">
 - Bước 3 Nhập Tên và Mật khẩu đăng nhập Ubuntu
   <img src = "../../jmg/buoc1.PNG">
   - Bước 4 Thay đổi tên và chọn nơi lưu
