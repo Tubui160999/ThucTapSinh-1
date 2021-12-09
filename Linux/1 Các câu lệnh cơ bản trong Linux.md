@@ -1,12 +1,12 @@
-### 1 Các Câu Lệnh Thương sự dụng
+### 1.Các Câu Lệnh Thương sự dụng
 - uname : kiểm tra hệ điều hành đang sử dụng
 - date : kiểm tra ngày giờ trên hệ điều hành.
 - df -h : liệt kê các thiết bị đang moun vào ổ cứng
 - free -m : để kiểm tra dung lương của ram
 - cat /proc/cpuinfo : để kiểm tra thông tin của cpu.
 - clear : để xóa trắng màn hình.
-- man + câu lệnh : để xem các oftion của câu lệnh đó.
-### 2 Các thao tác của 1 thư mục
+- man + câu lệnh : Show ra giới thiệu, hướng dẫn về câu lệnh đó.
+### 2.Các thao tác của 1 thư mục
 - Trong hệ điều hành linux thư mục "/" là thư muc cao nhất.
 - mkdri : để tạo một thư mục
 - pwd : để xem đang đứng ở thư mục nào.
@@ -66,18 +66,20 @@
 - tar -zjf : để mở giải nén
 ### 6.Quản lý User và Group
  - Mỗi người dùng là một user
- - tập hợp các người dùng là 1 group
+ - Tập hợp các người dùng là 1 group
  - cat /etc/passwd : để xem các user đang có
  - cat /etc/group : để xem các group đang có
  - groupadd : để tạo 1 group mới
   + Ví Dụ Tạo 1 group có tên là App  
     - groupadd -g 10 App
-    - với -g 10 là ID là của group vừa tạo mỗi group đều có 1 ID không giống nhau.
+    - Với -g 10 là ID là của group vừa tạo mỗi group đều có 1 ID không giống nhau.
 - useradd : để tạo 1 user mới
   + Ví Dụ tạo 1 user có tên là vankhanh
     - useradd -g App -G DB vankhanh
     - Với -g App là group chính của user vừa tạo
     - Với -G DB là group phụ 
     - Mỗi user có thể có nhiều group.
+### 7. Quản lý quyền trên file và thư mục
 
+### 8. Đặt lịch chạy với crontab 
 
