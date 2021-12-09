@@ -1,5 +1,5 @@
-### Hướng dẫn cài đặt MobaXterm
-##### Bược 1 : tải MobaXterm
+### 1.Hướng dẫn cài đặt MobaXterm
+##### Bược 1 : Tải MobaXterm
 + Tải MobaXterm theo link : https://mobaxterm.mobatek.net/download.html
 ##### Bước 2 : Mở file cài đặt đã tải về trước đó
 <img src ="../../jmg/z1.PNG">
@@ -17,7 +17,7 @@
 <img src ="../../jmg/z5.PNG">
 <img src ="../../jmg/z6.PNG">
 
-### 2 Kết Nối CentOS 7 đến MobaXterm 
+### 2.Kết Nối CentOS 7 đến MobaXterm 
 ##### Bước 1 : cấu hình địa chỉ ip tĩnh cho CenOs 7 
 <img src ="../../jmg/x1.PNG">
 
