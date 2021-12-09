@@ -74,9 +74,8 @@
     - Với -G DB là group phụ 
     - Mỗi user có thể có nhiều group.
 32. Copy file 
- ```
- cp (file_name){,.bak}
- ```
+ - cp (file_name){,.bak}
+
 
 - Bạn có thể tự tạo một cái nếu bạn muốn chỉnh sửa tệp nhưng không thay đổi bản gốc. Vì vậy, thay vì di chuyển tệp ra khỏi thư mục gốc, ghi lại bằng dữ liệu mới hoặc xóa hoàn toàn, bạn có thể chỉ cần thêm `.bak` vào cuối tệp để giữ an toàn.
 
