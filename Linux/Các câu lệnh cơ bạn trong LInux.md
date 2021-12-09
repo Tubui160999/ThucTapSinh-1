@@ -1,16 +1,79 @@
-<a name="101 câu lệnh thao tác với linux"></a>
+<a name="Các câu lệnh thao tác với linux"></a>
 
-1. `!!` : Sử dụng lệnh trước đó vừa sử dụng 
-- *Ví dụ ta sử dụng nó với lệnh `ll -s`*
 
-![](../images/101/!!.png) 
+1. uname : kiểm tra hệ điều hành đang sử dụng
+2. date : kiểm tra ngày giờ trên hệ điều hành.
+3. df -h : liệt kê các thiết bị đang moun vào ổ cứng
+4. free -m : để kiểm tra dung lương của ram
+5. cat /proc/cpuinfo : để kiểm tra thông tin của cpu.
+6. clear : để xóa trắng màn hình.
+7. man + câu lệnh : Show ra giới thiệu, hướng dẫn về câu lệnh đó.
 
-2. `!(text)` : Sử dụng câu lệnh gần nhất bắt đầu với 1 chữ cái.
-- *Ví dụ*
-
-![](../images/101/!(text).png)
-
-3. Copy file 
+8. mkdri : để tạo một thư mục
+9. pwd : để xem đang đứng ở thư mục nào.
+10. ls : Liệt kê nội dung của thư mục đang đứng.
+11. mv : để di chuyển từ thư mục này đến thu mục khác
+12. du -sh : để kiểm tra dung lương của thư mục đang đứng
+    + VD Di chuyển 1 file từ /root/bai1/a.text đến thứ mục /roo/bai2
+    + mv /root/bai1/a.text /root/bai2/
+  + với tham số đầu là tham số di chuyển và tham số thư 2 là tham số đến.
+13. rmdir : để xóa các thư mục và file rỗng
+14. rm -rf để xóa thư mục và file không rỗng
+  + Lưu ý khi dùng rm -rf nên đến thư mục ấy.
+15. ls -a : liệt kê các file ẩn.
+16. cat : để xem toàn bộ nội dụng của file đấy
+17. more : để xem từng trang của file đấy
+18. tail : để xem 10 dòng cuối cùng của file ấy 
+  + VD Muốn xem 20 dòng cuối cùng của file test
+    - tail -20 test
+19. head : để xem nội dung của 10 dòng đầu tiên của file
+  + VD muốn xem 20 dòng đầu tiên của file h
+    - head -20 h
+20. vi có hai chế độ là : Lệnh và nhập liệu
+  + nhập liệu : dùng để thêm sửa xóa nội dụng của file.
+  + Lệnh : dùng để tìm kiếm, lưu file, thoát khỏi file ...
+21. vi : để tạo 1 trình soạn thảo vi
+  + i : để bắt đầu nhập nội dụng
+  + :wq : để thoát và lưu nội dung vừa nhập lại
+  + :q! : để thoát và không lưu
+  + shift + 4 : để về đầu dòng
+  + shift + 6 : để về cuối dòng
+  + u : để undo những gì vừa mới thực hiện
+  + / : để tìm kiếm 
+    + Ví Dụ : Muốn tìm kiếm từ Hà Nội 
+       + /Hà Nội : sẽ tìm đến từ trên xuống dưới dùng n để tìm kiếm từ đúng tiếp theo
+  + :%s Tìm kiếm và thay thế
+    - Ví Dụ: Tìm kiếm tất cả từ 2 thay thế thành 3 
+      + :%s/2/3/g với giá trị g là tất cả 
+22. tar -cvf : để đóng gói 1 thư mục
+  + Ví Dụ : đóng gói thư mục test
+    - tar -cvf test.tar test
+    - cf là đóng gói
+    - v là hiện thị quá trình đóng gói 
+    - test.tar là tên file sau khi đóng gói
+    - test là file cần đóng gói
+23. tar -czf : để nén thư mục
+  + Ví Dụ: nén thư mục bai1
+    - tar -czf bai1.tar.gz bai1
+24. tar -cjf : để nén thư mục những kích thức file sẽ nhở hơn -z những quá trình nén sẽ mất thời gian nhiều hơn.
+  + Ví Dụ: nén thư mục bai2
+    - tar -cjf bai2.tar.bz2 bai2 
+25. tar -xf : để mở đóng gói
+26. tar -xzf : để mở giải nén
+27. tar -zjf : để mở giải nén
+28. cat /etc/passwd : để xem các user đang có
+29. cat /etc/group : để xem các group đang có
+30. groupadd : để tạo 1 group mới
+  + Ví Dụ Tạo 1 group có tên là App  
+    - groupadd -g 10 App
+    - Với -g 10 là ID là của group vừa tạo mỗi group đều có 1 ID không giống nhau.
+31. useradd : để tạo 1 user mới
+  + Ví Dụ tạo 1 user có tên là vankhanh
+    - useradd -g App -G DB vankhanh
+    - Với -g App là group chính của user vừa tạo
+    - Với -G DB là group phụ 
+    - Mỗi user có thể có nhiều group.
+32. Copy file 
  ```
  cp (file_name){,.bak}
  ```
@@ -21,7 +84,7 @@
 
 ![](../images/101/cp.png)
 
-4. Hoán đổi vị trí đứng với thư mục mẹ của nó. 
+33. Hoán đổi vị trí đứng với thư mục mẹ của nó. 
 
 `cd -`
 
@@ -29,23 +92,23 @@
 
 ![](../images/101/cd-.png)
 
-5. Di chuyển ra thực mục mẹ của thư mục hiện tại.
+34. Di chuyển ra thực mục mẹ của thư mục hiện tại.
 
 `cd ..`
 
-6. Di chuyển tới thư mục home 
+35. Di chuyển tới thư mục home 
 
 `cd ~`
 
-7. Di chuyển tới thư mục home 
+36. Di chuyển tới thư mục home 
 
 `cd $HOME`
 
-8. DI chuyển tới thư mục home 
+37. DI chuyển tới thư mục home 
 
 `cd `
 
-9. Cấp full quyền cho người sở hữu.QUyền đọc và ghi cho group và user
+38. Cấp full quyền cho người sở hữu.QUyền đọc và ghi cho group và user
 
 ```
 chmod 755 tên_file 
@@ -67,13 +130,13 @@ Trong đó r viết tắt của read(đọc),w viết tắt của write (viết)
 |-R|thay đổi tập tin và thư mục đệ quy|
 
 
-10. Cấp quyền thực thi cho user
+39. Cấp quyền thực thi cho user
 
 ```
 chmod a+x file_name
 ```
 
-11. Thay đổi quyền sở hữu của một file hoặc thư mục.
+40. Thay đổi quyền sở hữu của một file hoặc thư mục.
 
 ```
 chown option user:group file/folder
@@ -83,19 +146,19 @@ chown option user:group file/folder
 
 ![](../images/101/chown.png)
 
-12. Tạo ra bản sao của file 
+41. Tạo ra bản sao của file 
 
 ```
 cp (file(file)).backup
 ```
 
-13. Copy file1 thành file2
+42. Copy file1 thành file2
 
 ```
 cp (file1) (file2)
 ```
 
-14. Copy thư mục và file trong đó thành thư mục khác
+43. Copy thư mục và file trong đó thành thư mục khác
 
 ```
 cp -r <directory1> <directory2>/
@@ -115,19 +178,19 @@ cp -r <directory1> <directory2>/
 |-s|liên kết tượng trưng thay vì sao chép|
 |-u|chỉ sao chép khi tệp SOURCE mới hơn tệp đích hoặc khi tệp đích bị thiếu|
 
-15. Hiển thị ngày tháng của máy tính 
+44. Hiển thị ngày tháng của máy tính 
 `date`
 
 ![](../images/101/date.png)
 
-16. Tạo file
+45. Tạo file
 ```
 dd if=/dev/sda1 of=/root/sda1.txt
 ```
 - Ví dụ sao lưu ổ đĩa sang file .txt
 ![](../images/101/dd.png)
 
-17. Hiển thị không gian đĩa 
+46. Hiển thị không gian đĩa 
 
 `df -h`
 
@@ -151,7 +214,7 @@ Trong đó:
 |-t |giới hạn danh sách cho các hệ thống tệp loại TYPE|
 
 
-18. Lấy thông tin của hệ điều hành và ghi vào tệp văn bản.
+47. Lấy thông tin của hệ điều hành và ghi vào tệp văn bản.
 
 ```
 dmesg>dmesg.txt
@@ -172,7 +235,7 @@ dmesg>dmesg.txt
     | -u| không gian hiển thị thông báo không gian người dùng|
     |-w| Theo dõi chờ tin nhắn mới |
 
-19. Hiển thị thông tin hệ thống 
+48. Hiển thị thông tin hệ thống 
 
 `dmidecode`
 
@@ -186,30 +249,30 @@ dmesg>dmesg.txt
 |-s|Chỉ hiển thị giá trị của chuỗi DMI được xác định bởi KEYWORD|
 |-t|Chỉ hiển thị các mục của loại TYPE từ danh sách sau: bios, hệ thống, ván chân tường, khung, bộ xử lý,bộ nhớ, bộ nhớ cache, kết nối, khe cắm|
 
-20. Hiển thị thông tin BIOS
+49. Hiển thị thông tin BIOS
 ```
 dmidecode -t 0
 ```
 
 ![](../images/101/bios.png)
 
-21. Hiển thị thông tin CPU 
+50. Hiển thị thông tin CPU 
 
 ```
 dmidecode -t 4
 ```
 
-22. Kiểm tra các phần mềm đã cài đặt có tham số grep đi kèm 
+51. Kiểm tra các phần mềm đã cài đặt có tham số grep đi kèm 
 ``` 
 dpkg –list | grep [search term]
 ```
 
-23. Hiển thị tất cả các gói đã cài đặt 
+52. Hiển thị tất cả các gói đã cài đặt 
 ```
 dpkg -list|less
 ```
 
-24. Ước tính không gian đĩa tệp 
+53. Ước tính không gian đĩa tệp 
 ```
 du -bh (đường dẫn)
 ```
@@ -218,24 +281,24 @@ du -bh (đường dẫn)
 
 ![](../images/101/du-bh.png)
 
-25. Hiển thị biến môi trường 
+54. Hiển thị biến môi trường 
 
 `env` hoặc `set` 
 
 - Biến môi trường gồm có tên biến và và giá trị được gán
 
-26. In ra biến môi trường 
+55. In ra biến môi trường 
 
 - Ví dụ gán biến x=1 và in ra 
 
 ![](../images/101/in.png) 
 
-27. Hiển thị hình ảnh
-28. Thoát khỏi terminal
+55. Hiển thị hình ảnh
+56. Thoát khỏi terminal
 
 `exit`
 
-29. Hiển thị memory đã sử dụng 
+57. Hiển thị memory đã sử dụng 
 `free`
 
 ![](../images/101/free.png)
@@ -248,28 +311,28 @@ du -bh (đường dẫn)
 |-g|hiển thị dưới dạng G|
 |-k|hiển thị dưới dạng kilobytes|
 
-30. Hiển thị bản ghi hệ thống 
+58. Hiển thị bản ghi hệ thống 
 
 ```
 gnome-system-log
 ```
 
-31. Tìm kiếm 1 chuỗi trong 1 file 
+59. Tìm kiếm 1 chuỗi trong 1 file 
 
 ```
 grep <string> <filename>
 ```
 
-32. Hiển thị lịch sử sử dụng các dòng lệnh
+60. Hiển thị lịch sử sử dụng các dòng lệnh
 
 `history`
 
-33. Hiển thị tên của máy tính 
+61. Hiển thị tên của máy tính 
 `hostname`
 
 ![](../images/101/hostname.png)
 
-34. Hiển thị ngày tháng năm và giờ 
+62. Hiển thị ngày tháng năm và giờ 
 
 ```
 hwclock
@@ -277,19 +340,19 @@ hwclock
 
 ![](../images/101/clock.png)
 
-35. Hiển thị user id và group id của user hiện đang sử dụng 
+63. Hiển thị user id và group id của user hiện đang sử dụng 
 
 `id`
 
 ![](../images/101/id.png)
 
-36. Hiển thị ip và netmask trên máy 
+64. Hiển thị ip và netmask trên máy 
 
 `ip a`
 
 ![](../images/101/checkip.png)
 
-37. Hiển thị thời gian shutdown gần nhất 
+65. Hiển thị thời gian shutdown gần nhất 
 
 ```
  last -x | grep shutdown | head -1
@@ -297,11 +360,11 @@ hwclock
 
 ![](../images/101/shutdown.png)
 
-38. Logout khỏi user hiện tại 
+67. Logout khỏi user hiện tại 
 
 `logout`
 
-39. Hiển thị các file, thư mục không bị ẩn trong thư mục hiện tại.
+68. Hiển thị các file, thư mục không bị ẩn trong thư mục hiện tại.
 
 `ls`
 
@@ -315,27 +378,27 @@ hwclock
 |-t|sắp xếp theo thời gian sửa đổi, mới nhất trước|
 |-S|sắp xếp theo kích thước tập tin|
 
-40. Hiển thị quyền truy cập đối với tất cả files bên trong thư mục
+69. Hiển thị quyền truy cập đối với tất cả files bên trong thư mục
 
 ```
 ls -l filename
 ```
 
-41. Hiển thị các câu lệnh sẵn có trong trường hợp bạn quên.
+70. Hiển thị các câu lệnh sẵn có trong trường hợp bạn quên.
 
 `ls /usr/bin`
 
-42. Hiển thị các modules hiện đang load trong kernel
+71. Hiển thị các modules hiện đang load trong kernel
 
 `lsmod`
 
-43. show thông tin phần cứng âm thanh, video,network 
+72. show thông tin phần cứng âm thanh, video,network 
 
 ```
 lspci -nv | less
 ```
 
-44. Đọc hướng dẫn sử dụng của câu lệnh 
+73. Đọc hướng dẫn sử dụng của câu lệnh 
 
 `man`
 
@@ -343,7 +406,7 @@ lspci -nv | less
 
 ![](../images/101/man.png)
 
-45. Tạo một thư mục 
+74. Tạo một thư mục 
 
 ```
 mkdir <dir>
@@ -353,7 +416,7 @@ mkdir <dir>
 
 ![](../images/101/mkdir.png)
 
-46. Di chuyển file tới một thư mục khác 
+75. Di chuyển file tới một thư mục khác 
 
 ```
 mv <file> <dir>
@@ -363,7 +426,7 @@ mv <file> <dir>
 
 ![](../images/101/mv.png)
 
-47. Đổi tên file 1 thành file 2 
+76. Đổi tên file 1 thành file 2 
 
 ```
 mv file1 file2
@@ -371,27 +434,27 @@ mv file1 file2
 
 ![](../images/101/mvname.png)
 
-48. Show bảng định tuyến 
+77. Show bảng định tuyến 
 
 ```
 netstat -rn
 ```
 
-49. In ra các biến môi trường 
+78. In ra các biến môi trường 
 
 `printenv`
 
-50. Hiển thị những process đang chạy được thực thi bởi chính user đang sử dụng.
+79. Hiển thị những process đang chạy được thực thi bởi chính user đang sử dụng.
 
 `ps -Af`
 
-51. Hiển thị thư mục đang đứng 
+80. Hiển thị thư mục đang đứng 
 
 `pwd`
 
 ![](../images/101/pwd.png)
 
-52. Xoá file 
+81. Xoá file 
 
 ```
 rm filename
@@ -410,13 +473,13 @@ rm filename
 |-r|xóa thư mục và nội dung của chúng một cách đệ quy| 
 |-v|giải thích những gì đang được thực hiện|
 
-53. Xóa thư mục và nội dung bên trong thư mục này 
+82. Xóa thư mục và nội dung bên trong thư mục này 
 
 ```
 rmdir -rf <dir>
 ```
 
-54. Xóa các file có đuôi .txt
+83. Xóa các file có đuôi .txt
 
 `rm *.txt`
 
@@ -424,41 +487,41 @@ rmdir -rf <dir>
 
 ![](../images/101/rmtxt.png)
 
-55. Xóa thư mục trống 
+84. Xóa thư mục trống 
 
 `rmdir <dir>`
 
-56. Hiển thị địa chỉ gate way mặc định 
+85. Hiển thị địa chỉ gate way mặc định 
 
 `route`
 
-57. Shutdown now 
+86. Shutdown now 
 
 ```
 shutdown -h now
 ```
 
-58. Restart now 
+87. Restart now 
 
 ```
 shutdown - r now
 ```
 
-59. SSH đến máy tính khác 
+88. SSH đến máy tính khác 
 
 ```
 ssh <username>@<IP>
 ```
 
-60. Sử dụng shell với quyền root. User của bạn cần có quyền su sang user root.
+89. Sử dụng shell với quyền root. User của bạn cần có quyền su sang user root.
 
 `sudo -i`
 
-61. Sử dụng shell với quyền root.Giữ nguyên biến môi trường của user
+90. Sử dụng shell với quyền root.Giữ nguyên biến môi trường của user
 
  `sudo su`
 
- 62. Nén tất cả các file và thư mục bên trong một thư mục xác định thành một file
+91. Nén tất cả các file và thư mục bên trong một thư mục xác định thành một file
 
  ```
  tar czf <filename>.txt <dir>
@@ -468,35 +531,35 @@ ssh <username>@<IP>
 
 ![](../images/101/tar.png)
 
-63. Giải nén một file 
+92. Giải nén một file 
 
 ```
 tar xzvf <filename>
 ```
 
-64. Liệt kê các tiến trình đang được thực thi bằng CPU
+93. Liệt kê các tiến trình đang được thực thi bằng CPU
 
 `top`
 
-65. Tạo một file trống 
+94. Tạo một file trống 
 
 ```
 touch <filename>
 ```
 
-66. In ra tên của terminal bạn đang đứng.
+95. In ra tên của terminal bạn đang đứng.
 
 `tty`
 
 ![](../images/101/terminal.png)
 
-67. In ra tên nhân linux bạn đang đứng 
+96. In ra tên nhân linux bạn đang đứng 
 
 `uname -a`
 
 ![](../images/101/uname.png)
 
-68. In ra kiến trúc vi sử lý mà máy bạn đang dùng
+97. In ra kiến trúc vi sử lý mà máy bạn đang dùng
 
 `unmae -m`
 
@@ -512,7 +575,7 @@ touch <filename>
 |-p| in loại bộ xử lý hoặc "không xác định"|
 |-o|in ra hệ điều hành|
 
-69. Trả về tóm tắt câu lệnh đó dùng để làm gì 
+98. Trả về tóm tắt câu lệnh đó dùng để làm gì 
 
 ```
 whatis <command>
@@ -523,7 +586,7 @@ whatis <command>
 
 ![](../images/101/whatis.png)
 
-70. Trả về vị trí dduwngd của một chương trình trong hệ thống 
+99. Trả về vị trí dduwngd của một chương trình trong hệ thống 
 
 ```
 whereis <command>
@@ -532,7 +595,7 @@ whereis <command>
 
 ![](../images/101/whereis.png)
 
-71. Trả về đường dẫn của một ứng dụng
+100. Trả về đường dẫn của một ứng dụng
 
 ```
 which <command>
@@ -541,60 +604,60 @@ which <command>
 
 ![](../images/101/which.png)
 
-72. In ra những người đang truy cập vào máy 
+101. In ra những người đang truy cập vào máy 
 
 `who`
 
-73. In ra tên mà bạn đang dùng để đăng nhập vào máy.
+102. In ra tên mà bạn đang dùng để đăng nhập vào máy.
 
 `whoami`
 
-74. Ký hiệu biểu diễn thư mục home 
+103. Ký hiệu biểu diễn thư mục home 
 
 `~`
 
-75. In ra thông tin của cpu 
+104. In ra thông tin của cpu 
 
 ```
 cat /proc/cpuinfo
 
 ```
 
-76. In ra thông tin bộ nhớ
+105. In ra thông tin bộ nhớ
 
 ```
 cat /proc/meminfo
 
 ```
 
-77. In ra các thiết bị kết nối 
+106. In ra các thiết bị kết nối 
 
 ```
 cat /proc/net/dev
 
 ```
 
-78. In ra thông tin hiệu suất 
+107. In ra thông tin hiệu suất 
 
 ```
 cat /proc/uptime
 
 ```
 
-79. In ra phiên bản 
+108. In ra phiên bản 
 
 ```
 cat /proc/vesion
 
 ```
-80. In ra nội dung của một file 
+109. In ra nội dung của một file 
 
 ```
 cat <filename>
 
 ```
 
-81. In ra các phân vùng ổ đĩa  
+110. In ra các phân vùng ổ đĩa  
 
 ```
 fdisk -l
@@ -612,14 +675,14 @@ fdisk -l
 |v|in ra phiên bản của chương trình|
 
 
-82. Tìm file 
+111. Tìm file 
 
 ```
 find / -name <filename>
 
 ```
 
-83. Tạo một file nén đuôi .gz
+112. Tạo một file nén đuôi .gz
 
 ```
 gzip test.txt
@@ -628,7 +691,7 @@ gzip test.txt
 
 ![](../images/101/gz.png)
 
-84. Giải nén một file .gz
+113. Giải nén một file .gz
 
 ```
 gzip -d test.txt.gz
@@ -637,7 +700,7 @@ gzip -d test.txt.gz
 
 ![](../images/101/gzip-d.png)
 
-85. Tạo một file nén đuôi .tar
+114. Tạo một file nén đuôi .tar
 
 ```
 tar -cvf <filename>.tar file1 file2 folder1 folder2
@@ -646,46 +709,46 @@ tar -cvf <filename>.tar file1 file2 folder1 folder2
 
 ![](../images/101/filetar.png)
 
-86. Thêm mới,cập nhật nội dung cho file nén tar
+115. Thêm mới,cập nhật nội dung cho file nén tar
 
 ``` 
 tar -rvf filename.tar add_file1 add_file2
 
 
 ```
-87. Download file từ internet 
+116. Download file từ internet 
 
 ```
 wget <link>
 
 ```
-88. In ra số người cuối cùng đăng nhập vào máy 
+117. In ra số người cuối cùng đăng nhập vào máy 
 ```
 last -n x
 ```
 x là số người bạn muốn in ra.
 
-89. Hiển thị tiến trình dưới dạng tree
+118. Hiển thị tiến trình dưới dạng tree
 
 ```
 pstree
 ```
-90. Hiển thị số giây mà hệ điều hành chạy 
+119. Hiển thị số giây mà hệ điều hành chạy 
 
 ```
 grep time /proc/stat
 ```
-91. Tạo một người dùng mới 
+120. Tạo một người dùng mới 
 
 ```
 useradd name  
 ```
-92. Thay đổi mật khẩu người dùng
+121. Thay đổi mật khẩu người dùng
 
 ```
 passwd 
 ```
-93. Hiển thị không gian đĩa đã được sử dụng 
+122. Hiển thị không gian đĩa đã được sử dụng 
 ```
 du <option> <file>
 
@@ -699,7 +762,7 @@ du <option> <file>
 |-s|cho phép chỉ hiển thị tổng cộng cho mỗi đối số|
 |-0|kết thúc mỗi dòng đầu ra với 0 byte chứ không phải là một dòng mới|
 
-94. Chấm dứt một ứng dụng 
+123. Chấm dứt một ứng dụng 
 ```
 kill <option> <process_name>
 ```
@@ -712,7 +775,7 @@ kill <option> <process_name>
 |-L|Lệnh này được sử dụng để liệt kê các tín hiệu có sẵn trong một định dạng bảng|
 |l|hiển thị tất cả các tín hiệu có sẵn mà bạn có thể sử dụng|
 
-95. Hiển thị trạng thái của file 
+124. Hiển thị trạng thái của file 
 
 ```
 stat <options> <file_name>
@@ -726,7 +789,7 @@ stat <options> <file_name>
 |-c|sử dụng format chỉ định thay vì mặc định|
 |-t|in thông tin ở dạng terse|
 
-96. Sắp xếp các dòng của một tệp văn bản
+125. Sắp xếp các dòng của một tệp văn bản
 
 ```
 sort <options> <file>
@@ -741,7 +804,7 @@ sort <options> <file>
 |-u|Loại bỏ các dòng lặp lại một khóa trước đó|
 |-o|chỉ định tệp đầu ra|
 
-97. Cắt một dòng và trích xuất văn bản.
+126. Cắt một dòng và trích xuất văn bản.
 
 ```
 cut <options> <file>
@@ -753,7 +816,7 @@ cut <options> <file>
 |-b|trích xuất các byte cụ thể|
 |-c|cắt theo ký tự|
 
-98. echo 
+127. echo 
 - Lệnh echo dùng để hiển thị đoạn văn bản lên màn hình 
 
 ```
