@@ -17,5 +17,19 @@
 <img src ="../../jmg/z5.PNG">
 <img src ="../../jmg/z6.PNG">
 
+### 2 Kết Nối CentOS 7 đến MobaXterm 
+##### Bước 1 : cấu hình địa chỉ ip tĩnh cho CenOs 7 
+<img src ="../../jmg/x1.PNG">
+
+##### Bước 2 : Tạo 1 User điều khiển từ xa
+<img src ="../../jmg/x2.PNG">
+
+##### Bước 3 : Chọn Cách thức điều khiển SSH
+<img src ="../../jmg/x3.PNG">
+
+##### Bước 4 : Nhập Địa chỉ IP đã cấu hình cho CentOs 7 
+<img src ="../../jmg/x4.PNG">
+
+##### Bước 5 : Hoàn Thành và sử dụng 
 
 
