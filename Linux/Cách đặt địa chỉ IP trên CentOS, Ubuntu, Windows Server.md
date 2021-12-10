@@ -14,16 +14,16 @@
     + Với "connection" : là chế độ kết nối
     + Với "modify" : là chế độ sử đổi
 
-<img src = "img/Screenshot_3.png" >
+<img src = "img/Screenshot_7.png" >
  
 #### Bước 3 Đặt Địa chỉ Gateway 192.168.26.1
 - nmcli connection modify ens33 ipv4.gateway 192.168.26.7
-<img src = "img/Screenshot_4.png" >
+<img src = "img/Screenshot_8.png" >
 
 #### Bước 4 Đặt địa chỉ DNS 8.8.8.8
 - nmcli con mod ens33 ipv4.dns 8.8.8.8
 
-<img src = "img/Screenshot_5.png" >
+<img src = "img/Screenshot_9.png" >
 
 #### Bước 5 Kiểm tra lại kết quả 
 
