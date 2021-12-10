@@ -28,3 +28,22 @@
 #### Bước 5 Kiểm tra lại kết quả 
 
 <img src = "img/Screenshot_6.png" >
+
+## Đổi Ip Windows server 2019
+- Bước 1 : Kiểm tra Default Gateway
+
+<img src = "img/a.png" >
+
+- Bước 2 :
+<img src = "img/b.png" >
+
+- Bước 3 :
+<img src = "img/c.png" >
+
+- Bước 4 : 
+
+<img src = "img/d.png" >
+
+- Bước 5 : 
+
+<img src = "img/e.png" >
