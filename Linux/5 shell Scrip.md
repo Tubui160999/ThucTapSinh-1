@@ -13,7 +13,7 @@
     + 2 : Cấp quyền chạy cho file test.sh
     + 3 : Chạy file test.sh và kiểm tra  
      
-<img src = "../jmg/bai1.1.png"> 
+<img src = "../jmg/bai1.1.PNG"> 
 <img src = "../jmg/bai1.png">
 
 - Bài 2 : nhập 2 số từ bàn phim tính tổng 2 số đó
