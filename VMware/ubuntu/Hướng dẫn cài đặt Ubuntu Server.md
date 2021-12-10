@@ -24,6 +24,7 @@
 <img src = "../img/8.png">
 <img src = "../img/9.png">
 <img src = "../img/10.png">
+<img src = "../img/11.png">
 
 - Bước 8: Hoàn thành và đăng nhập vào Ubuntu
 <img src = "../img/22.png">
