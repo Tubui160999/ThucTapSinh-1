@@ -3,13 +3,13 @@
     + Cấu hình tối thiểu : Ổ cứng : 40 GB , RAM : 4G
     + Cấu hình khuyến cáo : Ổ cứng : 100GB , RAM : 8GB đối với 64bit.
     + Đã Cài đặt VMware Wokstation 20.04.3
-- Bước 2 : Cài đặt Windows server 2012
+- Bước 2 : Cài đặt Windows server 2019
    + Tạo file
         - <img src = "../img/Screenshot_1.png">
         
-    + Chọn Đĩa Windows server 2012 đã tải về từ trước đó.
+    + Chọn Đĩa Windows server 2019 đã tải về từ trước đó.
         - <img src = "../img/Screenshot_4.png">
-- Bước 3 Nhập Tên và Mật khẩu đăng nhập Windows server 2012
+- Bước 3 Nhập Tên và Mật khẩu đăng nhập Windows server 2019
 <img src = "../img/Screenshot_6.png">
 
 - Bước 4 Thay đổi tên và chọn nơi lưu
@@ -24,5 +24,6 @@
 - Bược 7 : Chờ đợi quá trình cài đặt 
 <img src = "../img/Screenshot_10.png">
 
-- Bước 8: Hoàn thành và và sử dụng Windows server 2012
+- Bước 8: Hoàn thành đăng nhập và và sử dụng Windows server 2019
 <img src = "../img/Screenshot_11.png">
+<img src = "../img/Screenshot_12.png">
