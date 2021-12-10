@@ -14,7 +14,7 @@
     + 3 : Chạy file test.sh và kiểm tra  
      
 <img src = "../jmg/bai1.1.png"> 
-<img src = "../jmg/bai1.PNG">
+<img src = "../jmg/bai1.png">
 
 - Bài 2 : nhập 2 số từ bàn phim tính tổng 2 số đó
     + Tạo 1 file bai1.sh bằng vi
@@ -28,5 +28,5 @@
     + Cấp quyền chạy cho file bai2.sh
     + Chạy file bai2.sh và xem kết quả
 <img src = "../jmg/b2.1.png">
-<img src = "../jmg/b12.2.png">
+<img src = "../jmg/b2.2.png">
 
