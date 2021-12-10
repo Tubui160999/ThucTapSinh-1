@@ -5,7 +5,7 @@
     + Đã Cài đặt VMware Wokstation 20.04.3
 - Bước 2 : Cài đặt Windows server 2012
    + Tạo file
-        - <img src = "../img/Screenshot_1.PNG">
+        - <img src = "../img/Screenshot_1.png">
         
     + Chọn Đĩa Windows server 2012 đã tải về từ trước đó.
         - <img src = "../../jmg/c1.PNG">
