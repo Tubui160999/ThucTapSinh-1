@@ -1,9 +1,10 @@
  - Bước 1 : Chuẩn Bị 
-    + Tải Ubuntu Theo đường link : https://download.com.vn/download/ubuntu-server-edition-13351?linkid=35520
+    + Tải Ubuntu server 18.04 và 20.04 Theo đường link : https://download.com.vn/download/ubuntu-server-edition-13351?linkid=35520
+    http://www.releases.ubuntu.com/20.04/
     + Cấu hình tối thiểu : Ổ cứng : 40 GB , RAM : 4G
     + Cấu hình khuyến cáo : Ổ cứng : 100GB , RAM : 8GB đối với 64bit.
     + Đã Cài đặt VMware Wokstation 20.04.3
-- Bước 2 : Cài đặt Buntu server
+- Bước 2 : Cài đặt Buntu server 18.04 và 20.04
    + Tạo file
         - <img src = "../img/1.png">
         
