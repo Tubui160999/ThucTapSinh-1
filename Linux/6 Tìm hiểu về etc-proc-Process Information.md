@@ -3,11 +3,11 @@
 - Chứa các thông tin về System Process(quá trình hệ thống).
 - Proc là hệ thống file ảo (pseudo file system), một hệ thống file thời gian thực (real time) và thường trú trong bộ nhớ (memory resident) để theo dõi các process đang chạy cùng với trạng thái của hệ thống.
 - Proc là hệ thống file ảo bởi vì trên thực tế nó không tồn tại trong bất kì phương tiện lưu trữ nào. Nó tồn tại dựa trên bộ nhớ ảo và dữ liệu luôn thay đổi động cùng với trạgn thái của hệ thống. Hầu hết các dữ liệu trong proc FS được cập nhật liên tục để phù hợp với trạng thái hiện tại của hệ điều hành. Nội dung của proc FS có thể được đọc bởi user có quyền thích hợp, trong đó một số phần chỉ dó thể đọc bởi owner của process và root. Nếu liệt kê thư mục root (/) ra bạn sẽ thấy
-<img src = "../img/t1.PNG">
+<img src = "/img/t1.PNG">
 
 ### 2 Nội dung thư mục /prco
 - sử dụng câu lệnh ls /proc để hiện thị các thư mục trong proc
-<img src = "../img/t1.PNG">
+<img src = "/img/t1.PNG">
 
 - Một số nội dung và mô tả ngắn gọn: file:/proc/cmdline
 
