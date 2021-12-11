@@ -41,7 +41,7 @@
 
 ### So Sánh EXT, Btrfs, XFS
 
-  <img src ="../../images/filesystem/img14.png">  
+  <img src ="img/f1.PNG">  
 
 - [Kiểm tra type linux file system](check_type_file_system.md)  
 
@@ -66,8 +66,7 @@
     - Có thể chứa tối đa 268.173.300 tệp trên một ổ đĩa FAT32  nếu sử dụng cluster 32KB. 
     - Tên file: tối đa 255 ký tự.   
     
-    <img src ="../../images/filesystem/fats_compared.png">
-
+  <img src ="img/f2.PNG">
 - `NTFS` - New Technology File System là định dạng hiện đại hơn so với FAT. NTFS lần đầu xuất hiện trên Windows NT 3.1. Một số tính năng hiện đại của NTFS có thể kể đến là: 
   - Tính năng về bảo mật như:    
     - Đặt quyền truy cập cho tập tin  
@@ -83,8 +82,7 @@
 
 ### So sánh FAT và NTFS  
 
-  <img src ="../../images/filesystem/ntfs-fat32-fat16-fat12.png">
-
+  <img src ="img/f3.PNG">
 
 ## 4. Phân vùng và file system  
 - Một phân vùng là một vùng chứa trong đó có một filesystem được lưu trữ , trong một số trường hợp thì filesystem có thể mở rộng hơn một phân vùng nếu filesystem sử dụng các liên kết.
@@ -93,18 +91,15 @@
 
 - So sánh giữa filesystem trên hệ điều hành Windows và hệ điều hành Linux:  
 
-  <img src ="../../images/filesystem/img2.png">  
-
+  <img src ="img/f4.PNG">
 ## 5. Filesystem Hierarchy Standard (FHS)
 - Filesystem của hệ điều hành Linux được tổ chức theo tiêu chuẩn cấp bậc của hệ thống tập tin Filesystem Hierarchy Standard (FHS). Tiêu chuẩn này định nghĩa mục đích của mỗi thư mục.
 
   Hình bên dưới là cấu trúc thư mục trong Linux:  
 
-  <img src ="../../images/filesystem/img3.png">  
-
+  <img src ="img/f5.PNG">
 - Linux  sử dụng ký tự `/` để phân tách các đường dẫn (không giống như Windows, sử dụng `\`) và không có ký tự ổ đĩa. Các ổ đĩa mới được gắn dưới dạng thư mục trong hệ thống tệp đơn, thường nằm dưới  `/media`  (ví dụ, đĩa CD-ROM có nhãn FedORA có thể được tìm thấy tại `/media/FedORA` và tệp  `README.txt`  trên đĩa đó sẽ là tại `/media/FEDORA/README.txt`).  
 - Tất cả các tên hệ thống tập tin Linux đều phân biệt chữ hoa chữ thường, vì vậy  `/boot`, `/Boot` và  `/BOOT`  là ba thư mục khác nhau. 
 
-  <img src ="../../images/filesystem/filesystem-2.png"> 
-
+  <img src ="img/f6.PNG">
 
