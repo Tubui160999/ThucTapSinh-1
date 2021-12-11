@@ -43,7 +43,6 @@
 
   <img src ="img/f2.PNG">  
 
-- [Kiểm tra type linux file system](check_type_file_system.md)  
 
 ## 3. Filesystem trên Window  
 - `FAT` - là viết tắt của "File Allocation Table" tạm dịch là "Bảng cấp phát tập tin". FAT được giới thiệu lần đầu tiên vào năm 1977 với phiên bản FAT12. Sau đó là các phiên bản FAT16 và FAT32.  
