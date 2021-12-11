@@ -12,14 +12,17 @@
 - `yum -y install httpd`
 <img src = "img/s6.png">
 
-- Bước 4 : 
+- Bước 4 : Start và enable cho httpd
+- `systemctl start httpd.service`
+- `systemctl enable httpd.service`
 <img src = "img/s3.png">
 
-- Bước 5 : 
-
+- Bước 5 : Kiểm tra firewall và stop firewall
+- `systemctl start firewall`
+- `systemctl stop firewall`
 <img src = "img/s4.png">
 
-- Bước 6 :
+- Bước 6 : kết nối IP với Apache 2
 <img src = "img/s5.png">
 
 
