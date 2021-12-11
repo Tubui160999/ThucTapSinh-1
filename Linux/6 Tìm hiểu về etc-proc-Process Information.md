@@ -1,4 +1,4 @@
-### Kiểm tra các thông số kỹ thuật trên linux
+## Tìm Hiểu về /etc/proc - Process Information
 ### 1. Hệ Thống file /proc
 - Chứa các thông tin về System Process(quá trình hệ thống).
 - Proc là hệ thống file ảo (pseudo file system), một hệ thống file thời gian thực (real time) và thường trú trong bộ nhớ (memory resident) để theo dõi các process đang chạy cùng với trạng thái của hệ thống.
