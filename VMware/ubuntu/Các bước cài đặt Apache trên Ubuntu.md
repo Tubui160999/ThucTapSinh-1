@@ -15,4 +15,27 @@
 
 
 <img src = "../img/u4.png">
-<img src = "../img/u5.png">
+
+### Thiết Lập Virtual Hosts
+- Đầu tiên tạo thư mục cho your_domain
+- `sudo mkdir -p /var/www/your_domain`
+<img src = "../img/q1.png">
+
+- Tiếp theo, cấp quyền sở hữu thư mục với user Apache www-data
+- ` sudo chown -R www-data:www-data /var/www/your_domain`
+<img src = "../img/q2.png">
+
+- Tiếp theo, tạo trang index.html:
+- ` sudo nano /var/www/your_domain/index.html`
+<img src = "../img/q3.png">
+
+- Tiếp theo cần tạo file Virtual Hosts /etc/apache2/sites-available/your_domain.conf 
+- ` sudo nano /etc/apache2/sites-available/your_domain.conf`
+<img src = "../img/q4.png">
+
+- Khởi động lại Apache 
+- ` sudo systemctl restart apache2`
+<img src = "../img/q5.png">
+<img src = "../img/q6.png">
+
+- Kiểm tra kết quả  
