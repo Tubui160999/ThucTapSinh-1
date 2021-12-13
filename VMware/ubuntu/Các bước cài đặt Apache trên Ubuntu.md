@@ -1,4 +1,6 @@
 ### Các Bước Cài Đặt Apache trên Ubuntu 20.4
+- Đầu tiền cần kiểm tra kết nối mạng
+- Tiếp theo thực hiện update apt
 - `sudo apt update `
 <img src = "../img/u1.png">
 
