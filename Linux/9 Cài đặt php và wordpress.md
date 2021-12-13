@@ -24,8 +24,6 @@
 ## Cài Đặt Wordpress
 1. Cài đặt Phpmyadim 
 - `yum install phpMyAdmin`
-
-
 2. cài đặt wget để tại Wordpress từ internet 
 - Tải wget
     + `yum install wget`
@@ -33,12 +31,8 @@
  
 - Tải Wordpress
     + `wget http://wordpress.org/latest.tar.gz`
-<img src ="img/w2.png">
-
 - giải nén file wordpress
     + `tar -xzvf latest.tar.gz`
- <img src ="img/w3.png">
-
 - Tạo Database cho wordpress
     + Tạo Database 
 <img src ="img/w4.png">
@@ -49,8 +43,7 @@
 
 - Thêm database vừa tạo vào wordpress
 
- <img src ="img/w6.png">
+ <img src ="img/w7.png">
 
 - kiểm tra kết quả
- <img src ="img/w7.png">
   <img src ="img/w8.png">
