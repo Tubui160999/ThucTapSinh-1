@@ -29,13 +29,20 @@
 - ` sudo nano /var/www/your_domain/index.html`
 <img src = "../img/q3.png">
 
+- Nhập nội dung trang web
+<img src = "../img/q7.png">
+
 - Tiếp theo cần tạo file Virtual Hosts /etc/apache2/sites-available/your_domain.conf 
 - ` sudo nano /etc/apache2/sites-available/your_domain.conf`
 <img src = "../img/q4.png">
 
+- Nội dung file Virtual Hosts
+<img src = "../img/q8.png">
+
 - Khởi động lại Apache 
 - ` sudo systemctl restart apache2`
 <img src = "../img/q5.png">
-<img src = "../img/q6.png">
+
 
 - Kiểm tra kết quả  
+<img src = "../img/q6.png">
