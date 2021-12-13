@@ -7,19 +7,19 @@
 
 - `sudo yum -y install epel-release yum-utils`
 
-<img src ="img/h2.png">
+<img src ="../img/z2.png">
 
 2. Tạo 1 file php với vi /var/www/html
 
-<img src ="img/h3.png">
+<img src ="../img/z3.png">
 
-<img src ="img/h4.png">
+<img src ="../img/z4.png">
 
 3. Chạy và kiểm tra
 
 - Lưu ý mỗi khi thay đổi ta cần thức hiện restart lại http 
-<img src ="img/h5.png">
-<img src ="img/h6.png">
+<img src ="../img/z5.png">
+<img src ="../img/z6.png">
 
 ## Cài Đặt Wordpress
 1. Cài đặt Phpmyadim 
@@ -27,7 +27,7 @@
 2. cài đặt wget để tải Wordpress từ internet 
 - Tải wget
     + `yum install wget`
-<img src ="img/w1.png">
+<img src ="../img/w1.png">
  
 - Tải Wordpress
     + `wget http://wordpress.org/latest.tar.gz`
@@ -35,25 +35,25 @@
     + `tar -xzvf latest.tar.gz`
 - Tạo Database cho wordpress
     + Tạo Database 
-<img src ="img/w4.png">
+<img src ="../img/w4.png">
 
 + Tạo User database
  
-<img src ="img/w5.png">
+<img src ="../img/w5.png">
 
 - Thêm database vừa tạo vào wordpress
 
- <img src ="img/w7.png">
+ <img src ="../img/w7.png">
 
 - Tạo tài khoản wordpress và tạo chỉnh sửa trang web 
     + Tạo tài khoản wordperss
 
-<img src ="img/w8.png">
+<img src ="../img/w8.png">
    
-<img src ="img/w9.png">
+<img src ="../img/w9.png">
 
    + Chỉnh sửa trang web
 
-<img src ="img/w10.png"> 
+<img src ="../img/w10.png"> 
   
-<img src ="img/w11.png">
+<img src ="../img/w11.png">
