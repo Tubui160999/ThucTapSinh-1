@@ -3,7 +3,7 @@
 
 - `sudo yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm`
 
-<img src ="img/z1.png">
+<img src ="../img/z1.png">
 
 - `sudo yum -y install epel-release yum-utils`
 
