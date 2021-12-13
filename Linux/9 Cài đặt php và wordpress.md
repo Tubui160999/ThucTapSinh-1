@@ -45,5 +45,11 @@
 
  <img src ="img/w7.png">
 
-- kiểm tra kết quả
+- Tạo tài khoản wordpress và tạo chỉnh sửa trang web 
+    + Tạo tài khoản wordperss
   <img src ="img/w8.png">
+   <img src ="img/w9.png"> 
+   + Chỉnh sửa trang web
+
+   <img src ="img/w10.png"> 
+   <img src ="img/w11.png">
