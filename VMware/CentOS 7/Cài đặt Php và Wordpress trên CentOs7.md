@@ -54,6 +54,6 @@
 
    + Chỉnh sửa trang web
 
-<img src ="../../img/w10.png"> 
+<img src ="img/w10.png"> 
   
-<img src ="../img/w11.png">
+<img src ="img/w11.png">
