@@ -1,4 +1,4 @@
-## Cài Đặt Php
+## Cài Đặt PHP
 1. Cài đặt PHP 7.3
 
 - `sudo yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm`
