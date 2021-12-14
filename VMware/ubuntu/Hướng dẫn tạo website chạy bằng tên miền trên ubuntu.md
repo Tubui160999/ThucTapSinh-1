@@ -15,7 +15,7 @@
 - `sudo nano /var/www/nhanhoa.vn/index.html`
 <img src = "../img/24.png">
 
-#### Nội dung của file 
+- Nội dung của file 
 <img src = "../img/25.png">
 
 #### Bước 5 : Tạo file Virtual Hosts
