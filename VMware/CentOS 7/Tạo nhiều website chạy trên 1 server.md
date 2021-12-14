@@ -20,7 +20,7 @@
     + Thực hiện điền địa chỉ ip và tên miền
 <img src ="../img/06.png">
 
-- Bước 3 : Kiểm tra và chạy theo tên miền của website
+- Bước 4 : Kiểm tra và chạy theo tên miền của website
 <img src ="../img/07.png">
  
 ### Vẫn tiếp tục các bước trên để tạo 1 websiet thứ 2 tên site02.vn
