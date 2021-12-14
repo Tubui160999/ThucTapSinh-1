@@ -1,4 +1,4 @@
-## Tạo web và chạy trên WinServer bằng tên miền
+## I. Tạo 1 web và chạy trên WinServer bằng tên miền
 #### bước 1 Tạo thư mục với tên la nhanhoa.vn
 - `sudo mkdir -p nhanhoa.vn`
 <img src = "../img/31.png">
@@ -40,7 +40,7 @@
 - `nhanhoa.vn.com`
 <img src = "../img/30.png">
 
-## Vẫn các bước trên tạo thêm 1 website có tên là "website01.com"
+## II. Vẫn Tiếp tục thực hiện các bước trên tạo thêm 1 website có tên là "website01.com"
 - Cùng lúc chạy cả hai web site "nhanhoa.vn.com" và "website01.com"
 
 <img src = "../img/30.png">
