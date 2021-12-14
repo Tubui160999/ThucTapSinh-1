@@ -43,5 +43,5 @@
 ## II. Vẫn Tiếp tục thực hiện các bước trên tạo thêm 1 website có tên là "website01.com"
 - Cùng lúc chạy cả hai web site "nhanhoa.vn.com" và "website01.com"
 
-<img src = "../img/30.png">
+<img src = "../img/35.png">
 
