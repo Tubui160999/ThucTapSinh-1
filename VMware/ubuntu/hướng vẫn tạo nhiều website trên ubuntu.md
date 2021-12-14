@@ -1,15 +1,15 @@
 ### Thiết Lập Virtual Hosts
 - bước 1 Tạo thư mục với tên la nhanhoa.vn
     + `sudo mkdir -p nhanhoa.vn`
-<img src = "../img/24.png">
+<img src = "../img/31.png">
 
 - Bước 2 : Gán quyền sở hữu thư mục với user Apache www-data
     + `sudo chown -R www-data:www-data /var/www/nhanhoa.vn`
-<img src = "../img/25.png">
+<img src = "../img/32.png">
 
 - Bước 3 : Phân quyền cho thư mục nhanhoa.vn
     + `sudo chmod -R 755 /var/www/nhanhoa.com`
-<img src = "../img/26.png">
+<img src = "../img/33.png">
 
 - Bước 4 : Tạo trang index.html
     + `sudo nano /var/www/nhanhoa.vn/index.html`
