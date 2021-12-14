@@ -22,4 +22,8 @@
 
 - Bước 3 : Kiểm tra và chạy theo tên miền của website
 <img src ="../img/07.png">
-
+ 
+### Vẫn tiếp tục các bước trên với 1 websiet thứ 2 tên site02.vn
+- kết quả đạt được
+<img src ="../img/08.png">
+<img src ="../img/09.png">
