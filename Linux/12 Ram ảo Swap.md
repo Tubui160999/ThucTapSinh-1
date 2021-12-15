@@ -14,3 +14,7 @@
 ### 4. Size Swap bao nhiêu là phù hợp
 - Nếu bộ nhớ RAM của bạn thấp như 512MB hoặc 1GB thì tốt nhất là swap tối đa không nên quá dung lượng RAM.
 - Nếu RAM của bạn lớn hơn 1GB và bạn muốn sử dụng chế độ ngủ đông thì các bạn nên set Swap tối thiểu là 1GB.
+### 5. Các loại Swap
+- Có 2 loại Swap cơ bản :
+    + swap partition : đây là 1 phân vùng độc lập trên ổ đĩa cứng, chỉ có một mục đích duy nhất là swapping và không có bất kì file khác nằm trên nó .
+    + swap file: là một file riêng biệt nằm trên hệ thống của bản, nó có thể nằm ở bất cứ đâu trên ổ đĩa tùy vào sự config của bạn.
