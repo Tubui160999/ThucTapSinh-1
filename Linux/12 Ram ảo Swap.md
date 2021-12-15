@@ -18,3 +18,23 @@
 - Có 2 loại Swap cơ bản :
     + swap partition : đây là 1 phân vùng độc lập trên ổ đĩa cứng, chỉ có một mục đích duy nhất là swapping và không có bất kì file khác nằm trên nó .
     + swap file: là một file riêng biệt nằm trên hệ thống của bản, nó có thể nằm ở bất cứ đâu trên ổ đĩa tùy vào sự config của bạn.
+
+## II. Cách Tạo 1 Swap
+### Kiểm tra Swap hiện tại
+- `swappon --show`
+<img src="img/sw1.png">
+
+### Bước 1: Tạo một file swapfile
+- `dd if=/dev/zero of=/swapfile bs=1024 count=2048k`
+<img src="img/sw2.png">
+
+### Bước 2 : Phân quyền cho file swapfile
+- Để đảm bảo chỉ có người dùng root mới có thể đọc và chạy bản ghi.
+- `chown root:root /swapfile`
+- `chmod 600 /swapfile   `
+<img src="img/sw3.png">
+
+
+### Bước 3 : Kiểm tra sau khi thêm swap
+- `swappon --show`
+<img src="img/sw4.png">
