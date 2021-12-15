@@ -6,12 +6,14 @@
 
 - là 1 trong các lớp bên dưới hệ điều hành mà nhiều lúc người sử dụng chúng ta không hề nghĩ tới, trừ trường hợp phải đối mặt với rất nhiều tùy chọn về file system trong Linux
 ### 2. Journaling là gì
+<img src="img/k2.png">
+
 - journaling là tất cả các loại file hệ thống ngày nay đều phải sử dụng journaling theo nhiều dạng khác nhau trên nền tảng laptop hoặc desktop với Linux.
 - Quy trình của Journaling trước tiên file sẽ được ghi vào journal, đẩy vào bên trong lớp quản lý dữ liệu, sau đó journal sẽ ghi file đó vào phân vùng ổ cứng khi đã sẵn sàng. Và khi thành công, file sẽ được xóa bỏ khỏi journal, đẩy ngược ra bên ngoài và quá trình hoàn tất. Nếu xảy ra lỗi trong khi thực hiện thì file hệ thống có thể kiểm tra lại journal và tất cả các thao tác chưa được hoàn tất, đồng thời ghi nhớ lại đúng vị trí xảy ra lỗi đó.
 
 ## II. Các tùy chọn file System
 ### 1.Ext (Extended file system)
-<img src="img/k2.png">
+<img src="img/k3.png">
 
 - là định dạng file hệ thống đầu tiên được thiết kế dành riêng cho Linux. Có tổng cộng 4 phiên bản và mỗi phiên bản lại có 1 tính năng nổi bật. Phiên bản đầu tiên của Ext là phần nâng cấp từ file hệ thống Minix được sử dụng tại thời điểm đó, nhưng lại không đáp ứng được nhiều tính năng phổ biến ngày nay. Và tại thời điểm này, chúng ta không nên sử dụng Ext vì có nhiều hạn chế, không còn được hỗ trợ trên nhiều distribution.
 ####  Ext2
@@ -22,7 +24,7 @@
 #### Ext4 
 - cũng giống như Ext3, lưu giữ được những ưu điểm và tính tương thích ngược với phiên bản trước đó. Như vậy, chúng ta có thể dễ dàng kết hợp các phân vùng định dạng Ext2, Ext3 và Ext4 trong cùng 1 ổ đĩa trong Ubuntu để tăng hiệu suất hoạt động. Trên thực tế, Ext4 có thể giảm bớt hiện tượng phân mảnh dữ liệu trong ổ cứng, hỗ trợ các file và phân vùng có dung lượng lớn... Thích hợp với ổ SSD so với Ext3, tốc độ hoạt động nhanh hơn so với 2 phiên bản Ext trước đó, cũng khá phù hợp để hoạt động trên server, nhưng lại không bằng Ext3
 ### 2. XFS 
-<img src="img/k3.png">
+<img src="img/k4.png">
 
 - XFS được phát triển bởi Silicon Graphics từ năm 1994 để hoạt động với hệ điều hành riêng biệt của họ, và sau đó chuyển sang Linux trong năm 2001. Khá tương đồng với Ext4 về một số mặt nào đó.
 
