@@ -30,6 +30,8 @@
 - Số cổng là một phần của thông tin địa chỉ giúp xác định người gửi và người nhận thông tin và một ứng dụng cụ thể trên thiết bị. Số cổng bao gồm các số 16 bit.
 
 ## II. Danh sách các port thông dụng 
+<img src="../jmg/các port.PNG">
+
 1. 
 - Cổng 80: Khi một người sử dụng địa chỉ IP hay HostName của các bạn trong bộ duyệt, bộ duyệt sẽ quan sát địa chỉ IP trên cổng 80 theo mặc định cho những trang Web.
 
