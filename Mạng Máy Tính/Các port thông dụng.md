@@ -22,7 +22,7 @@
 - Port mạng có tác dụng bảo vệ xâm nhập có hại cho máy tính
     +  Port cũng được xem là một trong những cổng bảo vệ an toàn cho máy tính của bạn. Port có thể phát hiện những tập tin xấu, có chứa virus làm ảnh hưởng đến các tập tin và máy tính. Nó sẽ loại bỏ những tập tin đó đi, loại bỏ virus xâm nhập, giúp máy tính luôn giữ được sự an toàn và đảm bảo tránh được những thông tin nhiễu.
 ### 4. Sự khác biệt giữa địa chỉ Ip và Port 
-<img src="../../jmg/port2.png">
+<img src="../jmg/port2.png">
 
 - Một địa chỉ IP xác định một máy trong một mạng IP và được sử dụng để xác định đích đến của một dữ liệu gói. Số cổng xác định một ứng dụng hoặc dịch vụ cụ thể trên hệ thống.
 - Địa chỉ IP xác định một máy trong mạng IP và xác định đích của gói dữ liệu, trong khi số cổng xác định các ứng dụng hoặc dịch vụ cụ thể trên hệ thống.
