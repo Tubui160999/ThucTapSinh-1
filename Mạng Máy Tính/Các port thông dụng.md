@@ -1,6 +1,6 @@
 ## I. Khai niệm về Prot
 ### 1. Prot mạng
-<img src="../../jmg/port1.png">
+<img src="../jmg/port1.png">
 
 - Port mạng là điểm cuối của quá trình giao tiếp trong hệ thống mạng máy tính. Port là giao thức bit 16 đứng đầu (chèn vào phần đầu header) của mỗi gói tin trong giao thức TCP, UDP hay còn gọi là cổng port, nơi quy định các tập dữ liệu riêng biệt.
 
