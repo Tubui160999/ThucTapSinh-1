@@ -50,9 +50,4 @@
 ### Bước 5: tiến hành Downloand cPanel
 - `cd /home && curl -o latest -L https://securedownloads.cpanel.net/latest && sh latest`
 
-<img src="img/cp4.png">
-
-### Bước 6: tiền hành đăng nhập và sử dụng.
-- vì em chưa cài qua VPS.
-
-<img src="img/cp5.png">
+## Bước 6: Hoàn thành cài đặt 
