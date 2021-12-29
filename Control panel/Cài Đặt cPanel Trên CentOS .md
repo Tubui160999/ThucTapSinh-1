@@ -84,4 +84,4 @@
 
 - Màn hình chính 
 
-<img src="img/Cpa7.png">
+<img src="img/Cpa8.png">
