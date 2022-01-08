@@ -35,3 +35,11 @@
 
 - Trả lời khách
 - <img src="img/tiket10.png">
+
+
+## 4. Những ticket đặt biệt
+- Nội dung
+<img src="img/dd1.png">
+
+- Cách trả lời 
+<img src="img/dd1.png">
