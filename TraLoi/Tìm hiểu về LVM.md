@@ -32,4 +32,3 @@
 - Physical volume : từ một partitions ta sẽ tạo ra được một physical
 - group volume : ta sẽ ghép nhiều physical volume thành một group volume
 - Logical volume : Ta sẽ có thể tạo ra được logical volume
-
